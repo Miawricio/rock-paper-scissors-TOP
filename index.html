@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock, Paper, Scissors - The Odin Project</title>
+</head>
+
+<body>
+
+    <div class="content">
+
+        <h1>Rock, Paper, Scissors!</h1>
+        <div class="user-input">
+            <p>Enter your choice (rock, paper, scissors)</p> <input type="text" name="userChoice" id="userChoice">
+            <button class="btn-go" id="btn-go">Go!</button>
+        </div>
+
+        <div class="round-count">
+            <p class="round-counter" id="round-counter">Round number: 0</p>
+        </div>
+        <div class="score-board">
+            <p class="user-score" id="user-score">User: 0</p>
+            <p class="computer-score" id="computer-score">Computer: 0</p>
+        </div>
+
+        <button class="reset" id="reset" style="visibility: hidden;">
+            Reset
+        </button>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
