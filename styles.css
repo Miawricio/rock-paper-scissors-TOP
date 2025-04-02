@@ -5,6 +5,27 @@
     align-items: center;
 }
 
+.user-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#userChoice{
+    width: 100%;
+}
+
+.choices{
+    display: flex;
+    gap: 30px;
+}
+
+.choices button{
+    width: 75px;
+}
+
 .score-board{
     display: flex;
     gap: 50px;
